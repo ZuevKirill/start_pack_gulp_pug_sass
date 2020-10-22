@@ -151,9 +151,9 @@ gulp.task('fontsBuild', ['clean'], function() {
 //ftp
 gulp.task('send', function() {
     var conn = ftp.create({
-        host: '5.188.28.168',
-        user: 'refettorio.ru',
-        password: 'fjoOvv3ks',
+        host: '',
+        user: '',
+        password: '',
         parallel: 5
     });
     /* list all files you wish to ftp in the glob variable */
